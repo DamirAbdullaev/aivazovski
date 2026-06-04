@@ -1,16 +1,15 @@
 .home {
     text-align: center;
+    padding: 0 0 70px 0;
 }
 
 .home-title {
     font-size: 45px;
     font-weight: 700;
-    color: var(--color-main-black);
     margin: 45px 0 25px 0;
 }
 
 .home-description {
-    color: var(--color-main-black);
     margin-bottom: 35px;
 }
 
