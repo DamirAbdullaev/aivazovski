@@ -4,11 +4,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Aivazovski is a website dedicated to the life and works of the famous Russian painter Ivan Aivazovsky. Explore his biography, history, portfolio, and contact information.">
+    <meta name="description"
+        content="Aivazovski is a website dedicated to the life and works of the famous Russian painter Ivan Aivazovsky. Explore his biography, history, portfolio, and contact information.">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
-        rel="stylesheet">
+        rel="stylesheet preconnect">
     <link rel="icon" type="image/png" href="assets/favicon.png">
     <link rel="stylesheet" href="index.css">
     <title>Aivazovski</title>
@@ -40,7 +41,17 @@
         </div>
     </header>
 
-    <main></main>
+    <main aria-label="main">
+        <section class="home" aria-label="home section">
+            <div class="container" aria-label="home content">
+                <h1 class="home-title" aria-label="title">Ivan Constantinovich Aivazovski</h1>
+                <p class="home-description" aria-label="description">Russian marine painter of Armenian origin, collector, philanthropist</p>
+
+                <img src="assets/webp/home.webp" alt="Ivan Aivazovski" class="home-img">
+
+            </div>
+        </section>
+    </main>
 
 </body>
 

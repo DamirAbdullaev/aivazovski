@@ -7,7 +7,12 @@ body {
     margin: 0;
     font-family: "Roboto", sans-serif;
     font-size: 18px;
-    font-weight: 700;
+    font-weight: 500;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
 }
 
 a {
@@ -15,9 +20,8 @@ a {
     color: unset;
 }
 
-ul {
-    list-style: none;
-    padding: 0;
+h1, p {
+    margin: 0;
 }
 
 .container {
