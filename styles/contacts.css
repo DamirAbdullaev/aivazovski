@@ -10,6 +10,7 @@
 }
 
 .contacts-btn {
+    display: block;
     width: 210px;
     height: 42px;
     background-color: var(--color-main-black);
@@ -19,16 +20,18 @@
     border: none;
     border-radius: 21px;
 
-    margin: 75px 0 30px 0;
+    font-style: 24px;
+    color: var(--bg-main);
+
+    margin: 75px auto 30px ;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .contacts-btn:hover {
     opacity: 0.8;
-}
-
-.btn-link {
-    font-style: 24px;
-    color: var(--bg-main);
 }
 
 .socials {
